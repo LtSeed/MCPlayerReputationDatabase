@@ -1,0 +1,24 @@
+name: Minecraft_Player_Reputation_Database
+version: '${project.version}'
+main: snownight.seed.Reputation_Database
+authors: [ LtSeed ]
+description: Reputation_Database
+
+
+
+commands:
+  prdb:
+    #描述这个命令
+    description:
+    #用法
+    usage: /prdb help
+    #执行此命令的人所需的权限
+    permission:
+    #没有权限的提示消息
+    permission-message: 你不能执行它.
+
+
+permission:
+  prdb.basicio:
+    description: 基本权限
+    default: true
