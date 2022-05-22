@@ -1,8 +1,5 @@
 package snownight.seed;
 
-import jdk.internal.loader.Resource;
-import jdk.tools.jlink.internal.Platform;
-import jdk.tools.jlink.internal.plugins.OrderResourcesPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.OfflinePlayer;
@@ -10,16 +7,12 @@ import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
-import sun.tools.jar.resources.jar;
 
 import java.io.*;
-import java.net.URLDecoder;
 import java.nio.channels.FileChannel;
 import java.util.*;
-import java.util.jar.JarFile;
 
 import static snownight.seed.CopyDir.copy;
-import static snownight.seed.CopyDir.copyFileB;
 
 public final class Reputation_Database extends JavaPlugin {
 
